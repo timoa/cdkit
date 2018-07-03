@@ -1,4 +1,4 @@
-# CDKit (WIP)
+# CDKit
 
 CDKit is a framework that helps to deploy mobile apps (iOS and Android) to the app stores (iTunes and Goole Play).
 
@@ -11,6 +11,7 @@ It supports the cross-platform Axway / Appcelerator Titanium framework, and it's
 - Appium for the UI automation tests
 - ImageMagick for creating app stores screenshots design
 - Ansible to manage the installation and updates of the GO.CD agent(s)
+- SonarQube for code quality check (optional)
 
 
 ## Description of the components
