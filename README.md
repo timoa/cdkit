@@ -17,33 +17,29 @@ It supports the cross-platform Axway / Appcelerator Titanium framework, and it's
 
 CDKit uses different GIT repositories to configure and handle the end-to-end deployment to the app stores.
 
-### Configuration
-
-#### cdkit.gocd
+### cdkit.gocd
 
 This repository stores the initial configuration of the GO.CD server, the different pipelines and environment.
 
-#### cdkit.ansible
+### cdkit.ansible
 
 To efficiently manage and maintain the GO.CD agent(s), CDKit use Ansible.
 
 It allows you to automatically deploy a new version of Xcode (without the App Store), updates the Android SDK, installs the latest version of Java JRE/JDK, etc.
 
-### Deployment
-
-#### cdkit.releasescripts
+### cdkit.releasescripts
 
 This repository is the core of the build and deployment process.
 
 There are scripts for generate IPA file from XArchive, create app icon with the build number, change the version of the app based on the pipeline version, create a changelog between two builds (based on GIT tags), etc.
 
-#### cdkit.certificates
+### cdkit.certificates
 
 This repository is maintained automatically by Fastlane and store the iOS mobile provisioning profiles, developer and production certificates and everything is encrypted.
 
 It's need for easy management of your profiles and certificates and all the GO.CD agents. No more manual update from Xcode on each agent!
 
-#### cdkit.appstore
+### cdkit.appstore
 
 At the moment, this repository store the versionCode for Android.
 
@@ -51,7 +47,7 @@ The versionCode is updated (by a commit) every time you deploy a new version to 
 
 It will be replaced soon by another Fastlane command to get the latest versionCode from the Google Play.
 
-#### cdkit.appstore.assets
+### cdkit.appstore.assets
 
 CDKit uses this repository to store the app stores assets downloaded by Fastlane from iTunes and the Google Play.
 
@@ -63,7 +59,7 @@ That includes:
 - Changelogs
 - Screenshots
 
-#### cdkit.appstore.design
+### cdkit.appstore.design
 
 It's the last addition to the CDKit framework.
 
@@ -78,7 +74,7 @@ It support themes and different devices:
 - Nexus 9 (tablet 10.0")
 - Nexus 7 2013 (tablet 7.0")
 
-#### cdkit.ui.automation
+### cdkit.ui.automation
 
 CDKit uses Appium for the UI automation.
 
@@ -86,7 +82,7 @@ This repository contains a small framework to launch Appium server, build your T
 
 It's based on the [Appcelerator Appium Tests repository](https://github.com/appcelerator/appium-tests) (not maintained anymore).
 
-#### cdkit.project.titanium
+### cdkit.project.titanium
 
 Sample Axway / Appcelerator Titanium project that will be used to test CDKit.
 
