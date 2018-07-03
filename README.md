@@ -100,3 +100,10 @@ To use this framework, you will need to clone this GIT repositories:
 - [cdkit.appstore.design](https://github.com/timoa/cdkit.appstore.design) (WIP)
 - [cdkit.ui.automation](https://github.com/timoa/cdkit.ui.automation) (WIP)
 - [cdkit.ansible](https://github.com/timoa/cdkit.ansible) (WIP)
+
+## TODO
+
+- Deploy my existing scripts and create the README for each repositories
+- Convert the remaining Bash scripts to Python (cdkit.releasescripts)
+- Create and deploy a single page website to cdkit.org (domain name purchased)
+- Create a Docker image for the GO.CD server with the initial setup to run quickly the first pipelines
