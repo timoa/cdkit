@@ -83,7 +83,7 @@ This repository contains a small framework to launch Appium server, build your T
 
 It's based on the [Appcelerator Appium Tests repository](https://github.com/appcelerator/appium-tests) (not maintained anymore).
 
-### cdkit.project.titanium
+### cdkit.titanium.app
 
 Sample Axway / Appcelerator Titanium project that will be used to test CDKit.
 
@@ -93,7 +93,7 @@ The Appium UI automation scripts, screenshots design, etc. will be based on this
 ## How to install CDKit
 To use this framework, you will need to clone this GIT repositories:
 - [cdkit.gocd](https://github.com/timoa/cdkit.gocd) (WIP)
-- [cdkit.project.titanium](https://github.com/timoa/cdkit.project.titanium) (WIP)
+- [cdkit.titanium.app](https://github.com/timoa/cdkit.titanium.app) (WIP)
 - [cdkit.releasescripts](https://github.com/timoa/cdkit.releasescripts) (WIP)
 - [cdkit.certificates](https://github.com/timoa/cdkit.certificates) (WIP)
 - [cdkit.appstore](https://github.com/timoa/cdkit.appstore) (WIP)
