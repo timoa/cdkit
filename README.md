@@ -2,7 +2,7 @@
 
 CDKit is a framework that helps to deploy mobile apps (iOS and Android) to the app stores (iTunes and Goole Play).
 
-![Example of the workflow with the CI Remote for Go app](https://github.com/timoa/cdkit/raw/master/doc/img/visual-stream-map-example.png)
+![Example of the workflow with the CI Remote for Go app](https://github.com/timoa/cdkit/raw/master/docs/img/visual-stream-map-example.png)
 
 It supports the cross-platform Axway / Appcelerator Titanium framework, and it's built on top of this software:
 
