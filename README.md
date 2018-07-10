@@ -22,7 +22,7 @@ CDKit uses different GIT repositories to configure and handle the end-to-end dep
 
 This repository stores the initial configuration of the GO.CD server, the different pipelines and environment.
 
-### cdkit.ansible
+### [cdkit.ansible](https://github.com/timoa/cdkit.ansible)
 
 To efficiently manage and maintain the GO.CD agent(s), CDKit use Ansible.
 
@@ -100,7 +100,7 @@ To use this framework, you will need to clone this GIT repositories:
 - [cdkit.appstore.assets](https://github.com/timoa/cdkit.appstore.assets) (WIP)
 - [cdkit.appstore.design](https://github.com/timoa/cdkit.appstore.design) (WIP)
 - [cdkit.ui.automation](https://github.com/timoa/cdkit.ui.automation) (WIP)
-- [cdkit.ansible](https://github.com/timoa/cdkit.ansible) (WIP)
+- [cdkit.ansible](https://github.com/timoa/cdkit.ansible)
 
 ## TODO
 
