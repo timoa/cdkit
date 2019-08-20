@@ -59,7 +59,7 @@ That includes:
 - Changelogs
 - Screenshots
 
-### cdkit.appstore.design
+### [cdkit.appstore.design](https://github.com/timoa/cdkit.appstore.design)
 
 It's the last addition to the [CDKit](https://cdkits.org) framework.
 
