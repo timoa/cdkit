@@ -99,7 +99,7 @@ To use this framework, you will need to clone this GIT repositories:
 - [cdkit.appstore](https://github.com/timoa/cdkit.appstore) (WIP)
 - [cdkit.appstore.assets](https://github.com/timoa/cdkit.appstore.assets) (WIP)
 - [cdkit.appstore.design](https://github.com/timoa/cdkit.appstore.design)
-- [cdkit.ui.automation](https://github.com/timoa/cdkit.ui.automation) (WIP)
+- [cdkit.ui.automation](https://github.com/timoa/cdkit.ui.automation)
 - [cdkit.ansible](https://github.com/timoa/cdkit.ansible)
 
 ## TODO
