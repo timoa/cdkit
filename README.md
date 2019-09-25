@@ -1,6 +1,6 @@
 # CDKit
 
-[CDKit](https://cdkits.org) is a framework that helps to deploy mobile apps (iOS and Android) to the app stores (iTunes and Google Play).
+[CDKit](https://cdkit.org) is a DevOps framework that helps to deploy mobile apps (iOS and Android) to the app stores (iTunes and Google Play).
 
 ![Example of the workflow with the CI Remote for Go app](https://github.com/timoa/cdkit/raw/master/docs/img/visual-stream-map-example.png)
 
@@ -15,7 +15,7 @@ It supports the cross-platform Axway / Appcelerator Titanium framework, and it's
 
 ## Description of the components
 
-[CDKit](https://cdkits.org) uses different GIT repositories to configure and handle the end-to-end deployment to the app stores.
+[CDKit](https://cdkit.org) uses different GIT repositories to configure and handle the end-to-end deployment to the app stores.
 
 ### cdkit.gocd
 
@@ -23,7 +23,7 @@ This repository stores the initial configuration of the [GO.CD](https://www.gocd
 
 ### [cdkit.ansible](https://github.com/timoa/cdkit.ansible)
 
-To efficiently manage and maintain the [GO.CD](https://www.gocd.org/) agent(s), [CDKit](https://cdkits.org) use [Ansible](https://www.ansible.com/).
+To efficiently manage and maintain the [GO.CD](https://www.gocd.org/) agent(s), [CDKit](https://cdkit.org) use [Ansible](https://www.ansible.com/).
 
 It allows you to automatically deploy a new version of Xcode (without the App Store), updates the Android SDK, installs the latest version of Java JRE/JDK, etc.
 
@@ -49,7 +49,7 @@ It will be replaced soon by another [Fastlane](https://fastlane.tools/) command 
 
 ### cdkit.appstore.assets
 
-[CDKit](https://cdkits.org) uses this repository to store the app stores assets downloaded by [Fastlane](https://fastlane.tools/) from iTunes and the Google Play.
+[CDKit](https://cdkit.org) uses this repository to store the app stores assets downloaded by [Fastlane](https://fastlane.tools/) from iTunes and the Google Play.
 
 That includes:
 
@@ -61,7 +61,7 @@ That includes:
 
 ### [cdkit.appstore.design](https://github.com/timoa/cdkit.appstore.design)
 
-It's the last addition to the [CDKit](https://cdkits.org) framework.
+It's the last addition to the [CDKit](https://cdkit.org) framework.
 
 This repository contains the CLI to generate the app stores screenshots.
 
@@ -76,7 +76,7 @@ It support themes and different devices:
 
 ### cdkit.ui.automation
 
-[CDKit](https://cdkits.org) uses Appium for the UI automation.
+[CDKit](https://cdkit.org) uses Appium for the UI automation.
 
 This repository contains a small framework to launch Appium server, build your Titanium app with a different SDK version (optional), Genymotion or an iOS simulator, run your scripts in a different configuration (devices, iOS or Android API version)!
 
@@ -84,7 +84,7 @@ It's based on the [Appcelerator Appium Tests repository](https://github.com/appc
 
 ### cdkit.titanium.app
 
-Sample Axway / Appcelerator Titanium project that will be used to test [CDKit](https://cdkits.org).
+Sample Axway / Appcelerator Titanium project that will be used to test [CDKit](https://cdkit.org).
 
 The [Appium](http://appium.io/) UI automation scripts, screenshots design, etc. will be based on this mobile app project.
 
